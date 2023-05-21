@@ -1,0 +1,4 @@
+SRC += muse.c
+RGB_MATRIX_ENABLE = yes
+RGBLIGHT_ENABLE = no
+STENO_ENABLE = yes

@@ -1,0 +1,49 @@
+#pragma once
+
+/* Select hand configuration */
+
+#define MASTER_LEFT
+// #define MASTER_RIGHT
+// #define EE_HANDS
+
+#define SPLIT_MODS_ENABLE
+
+#define USE_SERIAL_PD2
+
+#undef DEBOUNCE
+#define DEBOUNCE 25
+
+#define TAPPING_TERM_PER_KEY
+#define IGNORE_MOD_TAP_INTERRUPT
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+#define PERMISSIVE_HOLD_PER_KEY
+#define RETRO_TAPPING_PER_KEY
+#define TAPPING_FORCE_HOLD_PER_KEY
+
+#define QUICK_TAP_TERM 50
+
+#define COMBO_TERM 20
+#define COMBO_VARIABLE_LEN
+
+#define NO_AUTO_SHIFT_ALPHA
+#define AUTO_SHIFT_NO_SETUP
+
+#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+//#define OLED_SCROLL_TIMEOUT 5000
+#define OLED_SCROLL_TIMEOUT_RIGHT
+#define OLED_BRIGHTNESS 128
+#define OLED_TIMEOUT 10000
+#define OLED_FADE_OUT
+#define OLED_FADE_OUT_INTERVAL 3
+
+#define MK_KINETIC_SPEED
+#define MOUSEKEY_INTERVAL 8
+#define MOUSEKEY_DELAY 8
+#define MOUSEKEY_MOVE_DELTA 1
+#define MOUSEKEY_INITIAL_SPEED 1
+#define MOUSEKEY_BASE_SPEED 250
+/* #define MOUSEKEY_TIME_TO_MAX 60 */
+/* #define MOUSEKEY_MAX_SPEED 7 */
+/* #define MOUSEKEY_WHEEL_DELAY 0 */
+/* #define MOUSEKEY_WHEEL_INTERVAL 32 */
+/* #define MOUSEKEY_WHEEL_TIME_TO_MAX 150 */
